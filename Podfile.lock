@@ -1,0 +1,18 @@
+PODS:
+  - Sourcery (1.8.2):
+    - Sourcery/CLI-Only (= 1.8.2)
+  - Sourcery/CLI-Only (1.8.2)
+
+DEPENDENCIES:
+  - Sourcery
+
+SPEC REPOS:
+  trunk:
+    - Sourcery
+
+SPEC CHECKSUMS:
+  Sourcery: ad4aba88367fbaf0c1ae6ec4ba3282db1b571624
+
+PODFILE CHECKSUM: 4d74a99da559f61aeb66238e12e234ee4fb702d9
+
+COCOAPODS: 1.11.3

@@ -7,11 +7,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol AutoMockable {}
+
+protocol ViewControllerProtocolTests: AutoMockable {
+    func mockableTests()
+}
+
+class ViewController: UIViewController, ViewControllerProtocolTests {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+
+    func mockableTests() {
+        print("Yeah!!")
     }
 
 

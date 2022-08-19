@@ -1,0 +1,29 @@
+name: SourceryTutorialApp
+ptions:
+    deploymentTarget:
+    iOS: "14.0"
+    usesTabs: false
+    indentWidth: 4
+    tabWidth: 4
+attributes:
+    ORGANIZATIONNAME: SourceryTutorialApp, Inc.
+fileGroups:
+    - SourceryTutorialApp
+    - SourceryTutorialAppTests
+platform: [iOS]
+
+targets:
+  SourceryTutorialApp:
+    type: application
+    platform: iOS
+    sources: [SourceryTutorialApp]
+    settings:
+        base:
+        INFOPLIST_FILE: SourceryTutorialApp/Support Files/info.plist
+
+  SourceryTutorialAppTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+        - path: SourceryTutorialAppTests
+
